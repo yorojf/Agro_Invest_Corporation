@@ -1,0 +1,449 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	justify-content: center;
+	align-items: center;
+	background-color: aliceblue;
+	
+}
+
+
+header{
+	display: flex;
+	height: 120px;
+	width: 1350px;
+	background-color: white;
+	justify-content: space-between;
+	border: 2px none red;
+	position: fixed;
+	flex-wrap: wrap;
+		
+}
+
+
+li{
+	display: inline;
+	color: #1A8636;
+	font-size: 14px;
+	margin-right: 50px;
+}
+a{
+	overflow: hidden;
+	text-decoration: none;
+	color: #1A8636;
+}
+
+header li{
+	display: inline-block;
+	vertical-align: top;
+}
+header li a :hover{
+	display: block;
+	padding: 20px;
+}
+header li a :hover{
+	background-color:rgb(248, 248, 249);
+	color: #1A8636;
+}
+a:hover{
+	color: #1A8636;
+}
+header li a:hover{
+	background-color: #E7E780;
+	color: rgb(11, 4, 59);
+}
+
+.logo{
+	width: 11%;
+	background-color: white;
+}
+
+.images{
+	display: flex;
+}
+
+#caroussel{
+	width: 640px;
+	overflow: auto;
+	border: 2px none black;
+	align-content: center;
+	position: unset;
+	padding-top: 120px;
+	margin-left: 25%;
+}
+.images{
+	animation-duration: 20s;
+	animation-name: mesImages;
+	animation-iteration-count: infinite;
+}
+@keyframes mesImages{
+	0%{
+		transform: translateX(0);
+	relative
+			transform: translateX(-640px);
+		}
+	50% {
+		transform: translateX(-1280px);
+	}
+	75%{
+		transform: translateX(-1920px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+
+.facilite{
+	color: #81B628;
+	margin-left: 20%;
+	margin-top: 10px;
+	position: absolute;
+	font-size: 35px;
+	
+}
+
+.notre_mission{
+	height: 400px;
+	width: 650px;
+	font-size: 18px;
+	line-height: 140%;
+	border: 2px none;
+	color: rgb(0, 0, 0);
+	margin-top: 0px;
+	margin-left: 340px;
+	text-align: justify;
+}
+
+.mission{
+	color: #589932;
+	text-align: center;
+	font-size: 50px;
+}
+
+.im_mission{
+	margin-left: 30%;
+	margin-top: 20%;
+	
+}
+
+.im_objectif{
+	margin-left: 30%;
+	margin-top: 15%;
+}
+.objet{
+	color: #589932;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 50px;
+}
+.objectif{
+	height: 400px;
+	width: 840px;
+	font-size: 18px;
+	line-height: 140%;
+	border: 2px none;
+	color: rgb(0, 0, 0);
+	margin-top: 0px;
+	margin-left: 300px;
+	text-align: justify;
+	
+}
+
+.im_valeur{
+	margin-left: 27%;
+	margin-top: 20%;
+}
+
+.valeur{
+	color: #589932;
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+.valeurs{
+	height: 400px;
+	width: 650px;
+	font-size: 18px;
+	line-height: 140%;
+	border: 2px none;
+	color: rgb(0, 0, 0);
+	margin-top: 0px;
+	margin-left: 400px;
+	text-align: justify;
+	margin-bottom: 200px;
+	
+}
+
+.sevices{
+	color: #589932;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 50px;
+}
+.nos_services{
+	height: 400px;
+	width: 750px;
+	font-size: 18px;
+	line-height: 140%;
+	border: 2px none;
+	color: rgb(0, 0, 0);
+	margin-top: 10px;
+	margin-left: 340px;
+	text-align: justify;
+	margin-top:0px ;
+	margin-bottom: 200px;
+}
+
+i{
+	margin-left: 20px;
+}
+
+.im_service{
+	margin-top: 20%;
+	margin-left: 30%;
+	
+}
+
+.im_produits{
+	margin-left: 30%;
+	margin-top: 20%;
+}
+
+.Nos_produits{
+	height: 500px;
+	width: 700px;
+	font-size: 18px;
+	line-height: 140%;
+	border: 2px none;
+	color: rgb(0, 0, 0);
+	margin-top: 0px;
+	margin-left: 340px;
+	text-align: justify;
+}
+.prod{
+	color: #589932;
+	margin-left: 40px;
+	font-size: 50px;
+	text-align: center;
+}
+
+hr{
+	height: 3px;
+	background-color: white;
+}
+
+
+.contenair2{
+	height: 400px;
+	width: 1200px;
+	border: 2px none;
+	display: flex;
+	justify-content: space-between;
+
+}
+.gestion{
+	height: 400px;
+	width: 300px;
+	border: 2px none;
+	color: black;
+	font-size: 18px;
+	margin-left: 210px;
+	text-align: justify;
+	line-height: 140%;
+	
+
+	
+}
+.gest{
+	color: #E7E780;
+
+}
+.nos_respo{
+	font-size: 50px;
+	color: #589932;
+	text-align: center;
+}
+
+.im_responsabilité{
+	margin-left: 40%;
+	margin-top: 10%;
+}
+
+
+
+.développement{
+	height: 400px;
+	width: 300px;
+	border: 1px none black;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-top:0px ;
+	text-align: justify;
+	line-height: 140%;
+}
+
+
+.gestion_de_proj{
+	height: 400px;
+	width: 300px;
+	padding-left: 20px;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 140%;
+
+}
+
+
+.contenair4{
+	height: 400px;
+	width: 1000px;
+	border: 2px none violet;
+	font-size: 18px;
+	display: flex;
+	justify-content: space-around;
+	line-height: 140%;
+	text-align: justify;
+	margin-left: 15%;
+}
+
+h3{
+	text-align: center;
+}
+
+
+.mobilisation{
+	height: 350px;
+	width: 450px;
+	
+}
+.identification{
+	height: 350px;
+	width: 500px;
+	
+}
+
+.mot_media{
+	text-align: center;
+	color: #589932;
+	font-size: 300%;
+	
+}
+.diamo{
+  height: 90px;
+  width: 300px;
+  border: 1px none black;
+  margin-left: 40%;
+  margin-bottom:3%;
+  
+}
+
+.médias{
+	height: 600px;
+	width: 1330px;
+	border: 2px none brown;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 6%;
+}
+
+.media_1{
+	height: 333px;
+	width: 1330px;
+	border : 2px none black;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.media_2{
+	height: 333px;
+	width: 1330px;
+	border : 2px  none blue;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+		
+}
+
+.media_3{
+	height: 333px;
+	width: 1330px;
+	border : 2px none solid;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 120px;
+		
+}
+
+.media_4{
+	height: 333px;
+	width: 1330px;
+	border : 2px none solid;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+
+.adresse_et_maps{
+	background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p1/5734986-abstrait-blanc-et-gris-couleur-moderne-conception-fond-avec-forme-geometrique-vector-illustration-gratuit-vectoriel.jpg);
+	height: 400px;
+	width: 1330px;
+	border: 2px none red;
+	display: flex;
+	justify-content: space-around ;
+	
+}
+
+.cont_video{
+	height: 450px;
+	width: 650px;
+	border: 5px none black;
+	margin-left: 300px;
+	background-color: gainsboro;
+}
+.video{
+	text-align: center;
+	color: #81B628;
+}
+#contacte{
+	font-size: 100px;
+	color: #E7E780;
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+.adresses{
+	margin-top: 30px;
+	border: 2px none green;
+	height: 300px;
+	width: 600px;
+	background-color: white;
+}
+
+
+.icones{
+	text-align: center;
+	margin-left: 50%;
+}
+
+
+.mmaps_iimage{
+	margin-top: 30px;
+	border: 2px solid green;
+	height: 290px;
+	width: 400px;
+}
+
+pre{
+	font-size: 20px;
+	color: #1A8636;
+}
+
+footer{
+	height: 40px;
+	background-color: #82d25a;
+	text-align: center;
+}
+
